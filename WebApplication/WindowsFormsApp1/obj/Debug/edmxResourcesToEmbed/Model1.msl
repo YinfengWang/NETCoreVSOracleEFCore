@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="DOC_ANTENATAL_CARE_RECORD">
+      <EntityTypeMapping TypeName="Model.DOC_ANTENATAL_CARE_RECORD">
+        <MappingFragment StoreEntitySet="DOC_ANTENATAL_CARE_RECORD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NURSE_CODE" ColumnName="NURSE_CODE" />
+          <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+          <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+          <ScalarProperty Name="NURSING_CLASS" ColumnName="NURSING_CLASS" />
+          <ScalarProperty Name="NURSE_DATE" ColumnName="NURSE_DATE" />
+          <ScalarProperty Name="BLOOD_PRESSURE" ColumnName="BLOOD_PRESSURE" />
+          <ScalarProperty Name="CONTRACTION" ColumnName="CONTRACTION" />
+          <ScalarProperty Name="FETAL_HEART" ColumnName="FETAL_HEART" />
+          <ScalarProperty Name="AMNIOTIC_FLUID" ColumnName="AMNIOTIC_FLUID" />
+          <ScalarProperty Name="YIN_ANAL_EXAMINATION" ColumnName="YIN_ANAL_EXAMINATION" />
+          <ScalarProperty Name="VAGINAL_BLEEDING" ColumnName="VAGINAL_BLEEDING" />
+          <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+          <ScalarProperty Name="SIGNATURE" ColumnName="SIGNATURE" />
+          <ScalarProperty Name="PROCESSING_STATUS" ColumnName="PROCESSING_STATUS" />
+          <ScalarProperty Name="OPERATE_TYPE" ColumnName="OPERATE_TYPE" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="UPDATE_TIME" ColumnName="UPDATE_TIME" />
+          <ScalarProperty Name="BLOOD_PRESSURE_ID" ColumnName="BLOOD_PRESSURE_ID" />
+          <ScalarProperty Name="CONTRACTION_ID" ColumnName="CONTRACTION_ID" />
+          <ScalarProperty Name="FETAL_HEART_ID" ColumnName="FETAL_HEART_ID" />
+          <ScalarProperty Name="AMNIOTIC_FLUID_ID" ColumnName="AMNIOTIC_FLUID_ID" />
+          <ScalarProperty Name="YIN_ANAL_EXAMINATION_ID" ColumnName="YIN_ANAL_EXAMINATION_ID" />
+          <ScalarProperty Name="VAGINAL_BLEEDING_ID" ColumnName="VAGINAL_BLEEDING_ID" />
+          <ScalarProperty Name="REMARKS_ID" ColumnName="REMARKS_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOC_DAYOUR_ENTRYEXIT_RECORD">
+      <EntityTypeMapping TypeName="Model.DOC_DAYOUR_ENTRYEXIT_RECORD">
+        <MappingFragment StoreEntitySet="DOC_DAYOUR_ENTRYEXIT_RECORD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NURSE_CODE" ColumnName="NURSE_CODE" />
+          <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+          <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+          <ScalarProperty Name="NURSING_CLASS" ColumnName="NURSING_CLASS" />
+          <ScalarProperty Name="ENTRYEXIT_DATE" ColumnName="ENTRYEXIT_DATE" />
+          <ScalarProperty Name="DRINK_WATER" ColumnName="DRINK_WATER" />
+          <ScalarProperty Name="WATERY_FOOD" ColumnName="WATERY_FOOD" />
+          <ScalarProperty Name="LIQUID_AMOUNT" ColumnName="LIQUID_AMOUNT" />
+          <ScalarProperty Name="URINE" ColumnName="URINE" />
+          <ScalarProperty Name="DRAINAGE_VOMIT" ColumnName="DRAINAGE_VOMIT" />
+          <ScalarProperty Name="STOOL" ColumnName="STOOL" />
+          <ScalarProperty Name="INVOLVEMENT" ColumnName="INVOLVEMENT" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="SIGNATURE" ColumnName="SIGNATURE" />
+          <ScalarProperty Name="PROCESSING_STATUS" ColumnName="PROCESSING_STATUS" />
+          <ScalarProperty Name="OPERATE_TYPE" ColumnName="OPERATE_TYPE" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="UPDATE_TIME" ColumnName="UPDATE_TIME" />
+          <ScalarProperty Name="DRINK_WATER_NO" ColumnName="DRINK_WATER_NO" />
+          <ScalarProperty Name="WATERY_FOOD_NO" ColumnName="WATERY_FOOD_NO" />
+          <ScalarProperty Name="LIQUID_AMOUNT_NO" ColumnName="LIQUID_AMOUNT_NO" />
+          <ScalarProperty Name="URINE_NO" ColumnName="URINE_NO" />
+          <ScalarProperty Name="DRAINAGE_VOMIT_NO" ColumnName="DRAINAGE_VOMIT_NO" />
+          <ScalarProperty Name="STOOL_NO" ColumnName="STOOL_NO" />
+          <ScalarProperty Name="INVOLVEMENT_NO" ColumnName="INVOLVEMENT_NO" />
+          <ScalarProperty Name="AMOUNT_NO" ColumnName="AMOUNT_NO" />
+          <ScalarProperty Name="SIGNATURE_NO" ColumnName="SIGNATURE_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOC_MICROGLYCEMIC_RECORD">
+      <EntityTypeMapping TypeName="Model.DOC_MICROGLYCEMIC_RECORD">
+        <MappingFragment StoreEntitySet="DOC_MICROGLYCEMIC_RECORD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NURSE_CODE" ColumnName="NURSE_CODE" />
+          <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+          <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+          <ScalarProperty Name="NURSING_CLASS" ColumnName="NURSING_CLASS" />
+          <ScalarProperty Name="TEST_TIME" ColumnName="TEST_TIME" />
+          <ScalarProperty Name="ENTRY_TIME" ColumnName="ENTRY_TIME" />
+          <ScalarProperty Name="GLUCSE_PRICE" ColumnName="GLUCSE_PRICE" />
+          <ScalarProperty Name="SIGNATURE" ColumnName="SIGNATURE" />
+          <ScalarProperty Name="PROCESSING_STATUS" ColumnName="PROCESSING_STATUS" />
+          <ScalarProperty Name="OPERATE_TYPE" ColumnName="OPERATE_TYPE" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="UPDATE_TIME" ColumnName="UPDATE_TIME" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOC_NURSING_RECORD">
+      <EntityTypeMapping TypeName="Model.DOC_NURSING_RECORD">
+        <MappingFragment StoreEntitySet="DOC_NURSING_RECORD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NUMBER_VALUE" ColumnName="NUMBER_VALUE" />
+          <ScalarProperty Name="STRING_VALUE" ColumnName="STRING_VALUE" />
+          <ScalarProperty Name="CREATE_TIMESTAMP" ColumnName="CREATE_TIMESTAMP" />
+          <ScalarProperty Name="UPDATE_TIMESTAMP" ColumnName="UPDATE_TIMESTAMP" />
+          <ScalarProperty Name="DOC_NURSING_ID" ColumnName="DOC_NURSING_ID" />
+          <ScalarProperty Name="DOC_ELEMENT_ID" ColumnName="DOC_ELEMENT_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOC_POSTPARTUM_NURSING_RECORD">
+      <EntityTypeMapping TypeName="Model.DOC_POSTPARTUM_NURSING_RECORD">
+        <MappingFragment StoreEntitySet="DOC_POSTPARTUM_NURSING_RECORD">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NURSE_CODE" ColumnName="NURSE_CODE" />
+          <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+          <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+          <ScalarProperty Name="NURSING_CLASS" ColumnName="NURSING_CLASS" />
+          <ScalarProperty Name="NURSE_DATE" ColumnName="NURSE_DATE" />
+          <ScalarProperty Name="DELIVERY_MODE" ColumnName="DELIVERY_MODE" />
+          <ScalarProperty Name="CONSCIOUS_SYMPTOMS" ColumnName="CONSCIOUS_SYMPTOMS" />
+          <ScalarProperty Name="BEATE_HEART" ColumnName="BEATE_HEART" />
+          <ScalarProperty Name="BLOOD_PRESSURE" ColumnName="BLOOD_PRESSURE" />
+          <ScalarProperty Name="MAMILLA" ColumnName="MAMILLA" />
+          <ScalarProperty Name="MILK" ColumnName="MILK" />
+          <ScalarProperty Name="BOTTOM_HEIGHT" ColumnName="BOTTOM_HEIGHT" />
+          <ScalarProperty Name="ABDOMEN" ColumnName="ABDOMEN" />
+          <ScalarProperty Name="PERINEUM" ColumnName="PERINEUM" />
+          <ScalarProperty Name="COLOUR" ColumnName="COLOUR" />
+          <ScalarProperty Name="AMOUNT" ColumnName="AMOUNT" />
+          <ScalarProperty Name="TASTE" ColumnName="TASTE" />
+          <ScalarProperty Name="PISS" ColumnName="PISS" />
+          <ScalarProperty Name="URINARY_TUBE" ColumnName="URINARY_TUBE" />
+          <ScalarProperty Name="EXHAUST" ColumnName="EXHAUST" />
+          <ScalarProperty Name="OTHER" ColumnName="OTHER" />
+          <ScalarProperty Name="SIGNATURE" ColumnName="SIGNATURE" />
+          <ScalarProperty Name="PROCESSING_STATUS" ColumnName="PROCESSING_STATUS" />
+          <ScalarProperty Name="OPERATE_TYPE" ColumnName="OPERATE_TYPE" />
+          <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+          <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+          <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+          <ScalarProperty Name="UPDATE_TIME" ColumnName="UPDATE_TIME" />
+          <ScalarProperty Name="CONSCIOUS_SYMPTOMS_NO" ColumnName="CONSCIOUS_SYMPTOMS_NO" />
+          <ScalarProperty Name="BEATE_HEART_NO" ColumnName="BEATE_HEART_NO" />
+          <ScalarProperty Name="BLOOD_PRESSURE_NO" ColumnName="BLOOD_PRESSURE_NO" />
+          <ScalarProperty Name="MAMILLA_NO" ColumnName="MAMILLA_NO" />
+          <ScalarProperty Name="MILK_NO" ColumnName="MILK_NO" />
+          <ScalarProperty Name="BOTTOM_HEIGHT_NO" ColumnName="BOTTOM_HEIGHT_NO" />
+          <ScalarProperty Name="ABDOMEN_NO" ColumnName="ABDOMEN_NO" />
+          <ScalarProperty Name="PERINEUM_NO" ColumnName="PERINEUM_NO" />
+          <ScalarProperty Name="COLOUR_NO" ColumnName="COLOUR_NO" />
+          <ScalarProperty Name="AMOUNT_NO" ColumnName="AMOUNT_NO" />
+          <ScalarProperty Name="TASTE_NO" ColumnName="TASTE_NO" />
+          <ScalarProperty Name="PISS_NO" ColumnName="PISS_NO" />
+          <ScalarProperty Name="URINARY_TUBE_NO" ColumnName="URINARY_TUBE_NO" />
+          <ScalarProperty Name="EXHAUST_NO" ColumnName="EXHAUST_NO" />
+          <ScalarProperty Name="OTHER_NO" ColumnName="OTHER_NO" />
+          <ScalarProperty Name="SIGNATURE_NO" ColumnName="SIGNATURE_NO" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DOC_RECORDS">
+      <EntityTypeMapping TypeName="Model.DOC_RECORDS">
+        <MappingFragment StoreEntitySet="DOC_RECORDS">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+          <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+          <ScalarProperty Name="WARD_CODE" ColumnName="WARD_CODE" />
+          <ScalarProperty Name="TEMPLATE_ID" ColumnName="TEMPLATE_ID" />
+          <ScalarProperty Name="SCORE_DATE" ColumnName="SCORE_DATE" />
+          <ScalarProperty Name="TOTAL_SCORE" ColumnName="TOTAL_SCORE" />
+          <ScalarProperty Name="SCORE_RESULT" ColumnName="SCORE_RESULT" />
+          <ScalarProperty Name="SCORE_NURSE" ColumnName="SCORE_NURSE" />
+          <ScalarProperty Name="RECORD_STATUS" ColumnName="RECORD_STATUS" />
+          <ScalarProperty Name="IS_HAPPENED" ColumnName="IS_HAPPENED" />
+          <ScalarProperty Name="HAPPENED_POSITION" ColumnName="HAPPENED_POSITION" />
+          <ScalarProperty Name="ASSESS_NURSE" ColumnName="ASSESS_NURSE" />
+          <ScalarProperty Name="ASSESS_DATE" ColumnName="ASSESS_DATE" />
+          <ScalarProperty Name="NURSING_CLASS" ColumnName="NURSING_CLASS" />
+          <ScalarProperty Name="UPDATER_ID" ColumnName="UPDATER_ID" />
+          <ScalarProperty Name="UPDATE_DATE" ColumnName="UPDATE_DATE" />
+          <ScalarProperty Name="REMIND_ID" ColumnName="REMIND_ID" />
+          <ScalarProperty Name="DELAY_STATUS" ColumnName="DELAY_STATUS" />
+          <ScalarProperty Name="DELAY_HOURS" ColumnName="DELAY_HOURS" />
+          <ScalarProperty Name="EXAMINE_ID" ColumnName="EXAMINE_ID" />
+          <ScalarProperty Name="EXAMINE_DATE" ColumnName="EXAMINE_DATE" />
+          <ScalarProperty Name="NURSE_CODE" ColumnName="NURSE_CODE" />
+          <ScalarProperty Name="OPERATE_TYPE" ColumnName="OPERATE_TYPE" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

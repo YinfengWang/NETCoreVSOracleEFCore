@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model11.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DOC_NURSE_RECORDS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar2" MaxLength="42" Nullable="false" />
+          <Property Name="NURSE_CODE" Type="varchar2" MaxLength="20" />
+          <Property Name="PATIENT_ID" Type="varchar2" MaxLength="20" />
+          <Property Name="VISIT_ID" Type="varchar2" MaxLength="20" />
+          <Property Name="NURSING_CLASS" Type="varchar2" MaxLength="2" />
+          <Property Name="NURSE_TIME" Type="date" />
+          <Property Name="BODY_TEMPERATURE" Type="varchar2" MaxLength="10" />
+          <Property Name="HEART_RATE" Type="varchar2" MaxLength="10" />
+          <Property Name="BREATHE" Type="varchar2" MaxLength="20" />
+          <Property Name="BLOOD_PRESSURE" Type="varchar2" MaxLength="20" />
+          <Property Name="SP_ZERO_TWO" Type="varchar2" MaxLength="10" />
+          <Property Name="REMARKS" Type="varchar2" MaxLength="20" />
+          <Property Name="SIGNATURE" Type="varchar2" MaxLength="20" />
+          <Property Name="PROCESSING_STATUS" Type="number" Precision="3" Scale="0" />
+          <Property Name="OPERATE_TYPE" Type="varchar2" MaxLength="3" />
+          <Property Name="CREATE_USER" Type="varchar2" MaxLength="20" />
+          <Property Name="CREATE_TIME" Type="date" />
+          <Property Name="UPDATE_USER" Type="varchar2" MaxLength="20" />
+          <Property Name="UPDATE_TIME" Type="date" />
+          <Property Name="BODY_TEMPERATURE_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="HEART_RATE_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="BREATHE_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="BLOOD_PRESSURE_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="SP_ZERO_TWO_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="REMARKS_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="SIGNATURE_NO" Type="number" Precision="8" Scale="0" />
+          <Property Name="PROCESSING_STATUS_NO" Type="number" Precision="8" Scale="0" />
+        </EntityType>
+        <EntityContainer Name="Model11StoreContainer">
+          <EntitySet Name="DOC_NURSE_RECORDS" EntityType="Self.DOC_NURSE_RECORDS" Schema="MOBILEGS" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model11" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DOC_NURSE_RECORDS">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="NURSE_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PATIENT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="VISIT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="NURSING_CLASS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+          <Property Name="NURSE_TIME" Type="DateTime" />
+          <Property Name="BODY_TEMPERATURE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="HEART_RATE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="BREATHE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="BLOOD_PRESSURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SP_ZERO_TWO" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="REMARKS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="SIGNATURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="PROCESSING_STATUS" Type="Int16" />
+          <Property Name="OPERATE_TYPE" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+          <Property Name="CREATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="CREATE_TIME" Type="DateTime" />
+          <Property Name="UPDATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATE_TIME" Type="DateTime" />
+          <Property Name="BODY_TEMPERATURE_NO" Type="Int32" />
+          <Property Name="HEART_RATE_NO" Type="Int32" />
+          <Property Name="BREATHE_NO" Type="Int32" />
+          <Property Name="BLOOD_PRESSURE_NO" Type="Int32" />
+          <Property Name="SP_ZERO_TWO_NO" Type="Int32" />
+          <Property Name="REMARKS_NO" Type="Int32" />
+          <Property Name="SIGNATURE_NO" Type="Int32" />
+          <Property Name="PROCESSING_STATUS_NO" Type="Int32" />
+        </EntityType>
+        <EntityContainer Name="Entities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DOC_NURSE_RECORDS" EntityType="Self.DOC_NURSE_RECORDS" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="Model11StoreContainer" CdmEntityContainer="Entities2">
+          <EntitySetMapping Name="DOC_NURSE_RECORDS">
+            <EntityTypeMapping TypeName="Model11.DOC_NURSE_RECORDS">
+              <MappingFragment StoreEntitySet="DOC_NURSE_RECORDS">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="NURSE_CODE" ColumnName="NURSE_CODE" />
+                <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+                <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+                <ScalarProperty Name="NURSING_CLASS" ColumnName="NURSING_CLASS" />
+                <ScalarProperty Name="NURSE_TIME" ColumnName="NURSE_TIME" />
+                <ScalarProperty Name="BODY_TEMPERATURE" ColumnName="BODY_TEMPERATURE" />
+                <ScalarProperty Name="HEART_RATE" ColumnName="HEART_RATE" />
+                <ScalarProperty Name="BREATHE" ColumnName="BREATHE" />
+                <ScalarProperty Name="BLOOD_PRESSURE" ColumnName="BLOOD_PRESSURE" />
+                <ScalarProperty Name="SP_ZERO_TWO" ColumnName="SP_ZERO_TWO" />
+                <ScalarProperty Name="REMARKS" ColumnName="REMARKS" />
+                <ScalarProperty Name="SIGNATURE" ColumnName="SIGNATURE" />
+                <ScalarProperty Name="PROCESSING_STATUS" ColumnName="PROCESSING_STATUS" />
+                <ScalarProperty Name="OPERATE_TYPE" ColumnName="OPERATE_TYPE" />
+                <ScalarProperty Name="CREATE_USER" ColumnName="CREATE_USER" />
+                <ScalarProperty Name="CREATE_TIME" ColumnName="CREATE_TIME" />
+                <ScalarProperty Name="UPDATE_USER" ColumnName="UPDATE_USER" />
+                <ScalarProperty Name="UPDATE_TIME" ColumnName="UPDATE_TIME" />
+                <ScalarProperty Name="BODY_TEMPERATURE_NO" ColumnName="BODY_TEMPERATURE_NO" />
+                <ScalarProperty Name="HEART_RATE_NO" ColumnName="HEART_RATE_NO" />
+                <ScalarProperty Name="BREATHE_NO" ColumnName="BREATHE_NO" />
+                <ScalarProperty Name="BLOOD_PRESSURE_NO" ColumnName="BLOOD_PRESSURE_NO" />
+                <ScalarProperty Name="SP_ZERO_TWO_NO" ColumnName="SP_ZERO_TWO_NO" />
+                <ScalarProperty Name="REMARKS_NO" ColumnName="REMARKS_NO" />
+                <ScalarProperty Name="SIGNATURE_NO" ColumnName="SIGNATURE_NO" />
+                <ScalarProperty Name="PROCESSING_STATUS_NO" ColumnName="PROCESSING_STATUS_NO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

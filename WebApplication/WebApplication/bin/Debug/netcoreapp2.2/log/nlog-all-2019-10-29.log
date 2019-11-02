@@ -1,0 +1,11 @@
+2019-10-29 09:42:29.2440|0|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. 
+2019-10-29 09:42:29.8696|1|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request starting HTTP/2.0 GET https://localhost:44354/api/values   
+2019-10-29 09:42:29.9057|0|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'WebApplication.Controllers.ValuesController.Get (WebApplication)' 
+2019-10-29 09:42:29.9190|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Route matched with {action = "Get", controller = "Values"}. Executing action WebApplication.Controllers.ValuesController.Get (WebApplication) 
+2019-10-29 09:42:33.1614|1|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executing action method WebApplication.Controllers.ValuesController.Get (WebApplication) - Validation state: Valid 
+2019-10-29 09:42:33.6052|0|INFO|WebApplication.Controllers.ValuesController|shiz 
+2019-10-29 09:42:33.6260|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action method WebApplication.Controllers.ValuesController.Get (WebApplication), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 460.8431ms. 
+2019-10-29 09:42:33.6347|1|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.String[]'. 
+2019-10-29 09:42:33.7005|2|INFO|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|Executed action WebApplication.Controllers.ValuesController.Get (WebApplication) in 3776.6653ms 
+2019-10-29 09:42:33.7005|1|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'WebApplication.Controllers.ValuesController.Get (WebApplication)' 
+2019-10-29 09:42:33.7058|2|INFO|Microsoft.AspNetCore.Hosting.Internal.WebHost|Request finished in 3836.8305ms 200 application/json; charset=utf-8 

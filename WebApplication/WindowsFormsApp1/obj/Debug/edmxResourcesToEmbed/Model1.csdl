@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DOC_ANTENATAL_CARE_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PATIENT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VISIT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NURSING_CLASS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NURSE_DATE" Type="DateTime" />
+    <Property Name="BLOOD_PRESSURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CONTRACTION" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="FETAL_HEART" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="AMNIOTIC_FLUID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" />
+    <Property Name="YIN_ANAL_EXAMINATION" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="VAGINAL_BLEEDING" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="REMARKS" Type="String" MaxLength="42" FixedLength="false" Unicode="false" />
+    <Property Name="SIGNATURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PROCESSING_STATUS" Type="Int16" />
+    <Property Name="OPERATE_TYPE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_TIME" Type="DateTime" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="UPDATE_TIME" Type="DateTime" />
+    <Property Name="BLOOD_PRESSURE_ID" Type="Int32" />
+    <Property Name="CONTRACTION_ID" Type="Int32" />
+    <Property Name="FETAL_HEART_ID" Type="Int32" />
+    <Property Name="AMNIOTIC_FLUID_ID" Type="Int32" />
+    <Property Name="YIN_ANAL_EXAMINATION_ID" Type="Int32" />
+    <Property Name="VAGINAL_BLEEDING_ID" Type="Int32" />
+    <Property Name="REMARKS_ID" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DOC_DAYOUR_ENTRYEXIT_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PATIENT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VISIT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NURSING_CLASS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="ENTRYEXIT_DATE" Type="DateTime" />
+    <Property Name="DRINK_WATER" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="WATERY_FOOD" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="LIQUID_AMOUNT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="URINE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="DRAINAGE_VOMIT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="STOOL" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="INVOLVEMENT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIGNATURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PROCESSING_STATUS" Type="Int16" />
+    <Property Name="OPERATE_TYPE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_TIME" Type="DateTime" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="UPDATE_TIME" Type="DateTime" />
+    <Property Name="DRINK_WATER_NO" Type="Int32" />
+    <Property Name="WATERY_FOOD_NO" Type="Int32" />
+    <Property Name="LIQUID_AMOUNT_NO" Type="Int32" />
+    <Property Name="URINE_NO" Type="Int32" />
+    <Property Name="DRAINAGE_VOMIT_NO" Type="Int32" />
+    <Property Name="STOOL_NO" Type="Int32" />
+    <Property Name="INVOLVEMENT_NO" Type="Int32" />
+    <Property Name="AMOUNT_NO" Type="Int32" />
+    <Property Name="SIGNATURE_NO" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DOC_MICROGLYCEMIC_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PATIENT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VISIT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NURSING_CLASS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="TEST_TIME" Type="DateTime" />
+    <Property Name="ENTRY_TIME" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="GLUCSE_PRICE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SIGNATURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PROCESSING_STATUS" Type="Int16" />
+    <Property Name="OPERATE_TYPE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_TIME" Type="DateTime" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="UPDATE_TIME" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="DOC_NURSING_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="32" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NUMBER_VALUE" Type="Decimal" Precision="28" Scale="10" />
+    <Property Name="STRING_VALUE" Type="String" MaxLength="4000" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_TIMESTAMP" Type="DateTime" Precision="6" Nullable="false" />
+    <Property Name="UPDATE_TIMESTAMP" Type="DateTime" Precision="6" Nullable="false" />
+    <Property Name="DOC_NURSING_ID" Type="String" MaxLength="32" FixedLength="false" Unicode="false" />
+    <Property Name="DOC_ELEMENT_ID" Type="Decimal" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="DOC_POSTPARTUM_NURSING_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PATIENT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VISIT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="NURSING_CLASS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="NURSE_DATE" Type="DateTime" />
+    <Property Name="DELIVERY_MODE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CONSCIOUS_SYMPTOMS" Type="String" MaxLength="42" FixedLength="false" Unicode="false" />
+    <Property Name="BEATE_HEART" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="BLOOD_PRESSURE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MAMILLA" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="MILK" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="BOTTOM_HEIGHT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ABDOMEN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PERINEUM" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="COLOUR" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="TASTE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PISS" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="URINARY_TUBE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="EXHAUST" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="OTHER" Type="String" MaxLength="42" FixedLength="false" Unicode="false" />
+    <Property Name="SIGNATURE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="PROCESSING_STATUS" Type="Int16" />
+    <Property Name="OPERATE_TYPE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CREATE_TIME" Type="DateTime" />
+    <Property Name="UPDATE_USER" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="UPDATE_TIME" Type="DateTime" />
+    <Property Name="CONSCIOUS_SYMPTOMS_NO" Type="Int32" />
+    <Property Name="BEATE_HEART_NO" Type="Int32" />
+    <Property Name="BLOOD_PRESSURE_NO" Type="Int32" />
+    <Property Name="MAMILLA_NO" Type="Int32" />
+    <Property Name="MILK_NO" Type="Int32" />
+    <Property Name="BOTTOM_HEIGHT_NO" Type="Int32" />
+    <Property Name="ABDOMEN_NO" Type="Int32" />
+    <Property Name="PERINEUM_NO" Type="Int32" />
+    <Property Name="COLOUR_NO" Type="Int32" />
+    <Property Name="AMOUNT_NO" Type="Int32" />
+    <Property Name="TASTE_NO" Type="Int32" />
+    <Property Name="PISS_NO" Type="Int32" />
+    <Property Name="URINARY_TUBE_NO" Type="Int32" />
+    <Property Name="EXHAUST_NO" Type="Int32" />
+    <Property Name="OTHER_NO" Type="Int32" />
+    <Property Name="SIGNATURE_NO" Type="Int32" />
+  </EntityType>
+  <EntityType Name="DOC_RECORDS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PATIENT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="VISIT_ID" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="WARD_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TEMPLATE_ID" Type="Int32" Nullable="false" />
+    <Property Name="SCORE_DATE" Type="DateTime" />
+    <Property Name="TOTAL_SCORE" Type="Int16" />
+    <Property Name="SCORE_RESULT" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SCORE_NURSE" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="RECORD_STATUS" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="IS_HAPPENED" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="HAPPENED_POSITION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ASSESS_NURSE" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="ASSESS_DATE" Type="DateTime" />
+    <Property Name="NURSING_CLASS" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="UPDATER_ID" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="UPDATE_DATE" Type="DateTime" />
+    <Property Name="REMIND_ID" Type="String" MaxLength="42" FixedLength="false" Unicode="false" />
+    <Property Name="DELAY_STATUS" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="DELAY_HOURS" Type="Int16" />
+    <Property Name="EXAMINE_ID" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="EXAMINE_DATE" Type="DateTime" />
+    <Property Name="NURSE_CODE" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="OPERATE_TYPE" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DOC_ANTENATAL_CARE_RECORD" EntityType="Self.DOC_ANTENATAL_CARE_RECORD" />
+    <EntitySet Name="DOC_DAYOUR_ENTRYEXIT_RECORD" EntityType="Self.DOC_DAYOUR_ENTRYEXIT_RECORD" />
+    <EntitySet Name="DOC_MICROGLYCEMIC_RECORD" EntityType="Self.DOC_MICROGLYCEMIC_RECORD" />
+    <EntitySet Name="DOC_NURSING_RECORD" EntityType="Self.DOC_NURSING_RECORD" />
+    <EntitySet Name="DOC_POSTPARTUM_NURSING_RECORD" EntityType="Self.DOC_POSTPARTUM_NURSING_RECORD" />
+    <EntitySet Name="DOC_RECORDS" EntityType="Self.DOC_RECORDS" />
+  </EntityContainer>
+</Schema>

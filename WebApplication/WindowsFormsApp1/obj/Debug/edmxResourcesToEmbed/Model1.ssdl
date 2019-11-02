@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DOC_ANTENATAL_CARE_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="42" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="varchar2" MaxLength="20" />
+    <Property Name="PATIENT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="VISIT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="NURSING_CLASS" Type="varchar2" MaxLength="2" />
+    <Property Name="NURSE_DATE" Type="date" />
+    <Property Name="BLOOD_PRESSURE" Type="varchar2" MaxLength="20" />
+    <Property Name="CONTRACTION" Type="varchar2" MaxLength="20" />
+    <Property Name="FETAL_HEART" Type="varchar2" MaxLength="10" />
+    <Property Name="AMNIOTIC_FLUID" Type="varchar2" MaxLength="42" />
+    <Property Name="YIN_ANAL_EXAMINATION" Type="varchar2" MaxLength="10" />
+    <Property Name="VAGINAL_BLEEDING" Type="varchar2" MaxLength="10" />
+    <Property Name="REMARKS" Type="varchar2" MaxLength="42" />
+    <Property Name="SIGNATURE" Type="varchar2" MaxLength="20" />
+    <Property Name="PROCESSING_STATUS" Type="number" Precision="3" Scale="0" />
+    <Property Name="OPERATE_TYPE" Type="varchar2" MaxLength="10" />
+    <Property Name="CREATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="CREATE_TIME" Type="date" />
+    <Property Name="UPDATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="UPDATE_TIME" Type="date" />
+    <Property Name="BLOOD_PRESSURE_ID" Type="number" Precision="8" Scale="0" />
+    <Property Name="CONTRACTION_ID" Type="number" Precision="8" Scale="0" />
+    <Property Name="FETAL_HEART_ID" Type="number" Precision="8" Scale="0" />
+    <Property Name="AMNIOTIC_FLUID_ID" Type="number" Precision="8" Scale="0" />
+    <Property Name="YIN_ANAL_EXAMINATION_ID" Type="number" Precision="8" Scale="0" />
+    <Property Name="VAGINAL_BLEEDING_ID" Type="number" Precision="8" Scale="0" />
+    <Property Name="REMARKS_ID" Type="number" Precision="8" Scale="0" />
+  </EntityType>
+  <EntityType Name="DOC_DAYOUR_ENTRYEXIT_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="42" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="varchar2" MaxLength="20" />
+    <Property Name="PATIENT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="VISIT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="NURSING_CLASS" Type="varchar2" MaxLength="2" />
+    <Property Name="ENTRYEXIT_DATE" Type="date" />
+    <Property Name="DRINK_WATER" Type="varchar2" MaxLength="10" />
+    <Property Name="WATERY_FOOD" Type="varchar2" MaxLength="10" />
+    <Property Name="LIQUID_AMOUNT" Type="varchar2" MaxLength="10" />
+    <Property Name="URINE" Type="varchar2" MaxLength="10" />
+    <Property Name="DRAINAGE_VOMIT" Type="varchar2" MaxLength="20" />
+    <Property Name="STOOL" Type="varchar2" MaxLength="20" />
+    <Property Name="INVOLVEMENT" Type="varchar2" MaxLength="10" />
+    <Property Name="AMOUNT" Type="varchar2" MaxLength="10" />
+    <Property Name="SIGNATURE" Type="varchar2" MaxLength="20" />
+    <Property Name="PROCESSING_STATUS" Type="number" Precision="3" Scale="0" />
+    <Property Name="OPERATE_TYPE" Type="varchar2" MaxLength="20" />
+    <Property Name="CREATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="CREATE_TIME" Type="date" />
+    <Property Name="UPDATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="UPDATE_TIME" Type="date" />
+    <Property Name="DRINK_WATER_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="WATERY_FOOD_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="LIQUID_AMOUNT_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="URINE_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="DRAINAGE_VOMIT_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="STOOL_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="INVOLVEMENT_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="AMOUNT_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="SIGNATURE_NO" Type="number" Precision="8" Scale="0" />
+  </EntityType>
+  <EntityType Name="DOC_MICROGLYCEMIC_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="42" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="varchar2" MaxLength="20" />
+    <Property Name="PATIENT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="VISIT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="NURSING_CLASS" Type="varchar2" MaxLength="2" />
+    <Property Name="TEST_TIME" Type="date" />
+    <Property Name="ENTRY_TIME" Type="varchar2" MaxLength="20" />
+    <Property Name="GLUCSE_PRICE" Type="varchar2" MaxLength="10" />
+    <Property Name="SIGNATURE" Type="varchar2" MaxLength="20" />
+    <Property Name="PROCESSING_STATUS" Type="number" Precision="3" Scale="0" />
+    <Property Name="OPERATE_TYPE" Type="varchar2" MaxLength="10" />
+    <Property Name="CREATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="CREATE_TIME" Type="date" />
+    <Property Name="UPDATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="UPDATE_TIME" Type="date" />
+  </EntityType>
+  <EntityType Name="DOC_NURSING_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="32" Nullable="false" />
+    <Property Name="NUMBER_VALUE" Type="number" Precision="28" Scale="10" />
+    <Property Name="STRING_VALUE" Type="varchar2" MaxLength="4000" />
+    <Property Name="CREATE_TIMESTAMP" Type="timestamp" Precision="6" Nullable="false" />
+    <Property Name="UPDATE_TIMESTAMP" Type="timestamp" Precision="6" Nullable="false" />
+    <Property Name="DOC_NURSING_ID" Type="varchar2" MaxLength="32" />
+    <Property Name="DOC_ELEMENT_ID" Type="number" Precision="38" Scale="0" />
+  </EntityType>
+  <EntityType Name="DOC_POSTPARTUM_NURSING_RECORD">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="42" Nullable="false" />
+    <Property Name="NURSE_CODE" Type="varchar2" MaxLength="20" />
+    <Property Name="PATIENT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="VISIT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="NURSING_CLASS" Type="varchar2" MaxLength="2" />
+    <Property Name="NURSE_DATE" Type="date" />
+    <Property Name="DELIVERY_MODE" Type="varchar2" MaxLength="10" />
+    <Property Name="CONSCIOUS_SYMPTOMS" Type="varchar2" MaxLength="42" />
+    <Property Name="BEATE_HEART" Type="varchar2" MaxLength="10" />
+    <Property Name="BLOOD_PRESSURE" Type="varchar2" MaxLength="10" />
+    <Property Name="MAMILLA" Type="varchar2" MaxLength="10" />
+    <Property Name="MILK" Type="varchar2" MaxLength="10" />
+    <Property Name="BOTTOM_HEIGHT" Type="varchar2" MaxLength="20" />
+    <Property Name="ABDOMEN" Type="varchar2" MaxLength="20" />
+    <Property Name="PERINEUM" Type="varchar2" MaxLength="20" />
+    <Property Name="COLOUR" Type="varchar2" MaxLength="20" />
+    <Property Name="AMOUNT" Type="varchar2" MaxLength="10" />
+    <Property Name="TASTE" Type="varchar2" MaxLength="20" />
+    <Property Name="PISS" Type="varchar2" MaxLength="20" />
+    <Property Name="URINARY_TUBE" Type="varchar2" MaxLength="20" />
+    <Property Name="EXHAUST" Type="varchar2" MaxLength="20" />
+    <Property Name="OTHER" Type="varchar2" MaxLength="42" />
+    <Property Name="SIGNATURE" Type="varchar2" MaxLength="20" />
+    <Property Name="PROCESSING_STATUS" Type="number" Precision="3" Scale="0" />
+    <Property Name="OPERATE_TYPE" Type="varchar2" MaxLength="10" />
+    <Property Name="CREATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="CREATE_TIME" Type="date" />
+    <Property Name="UPDATE_USER" Type="varchar2" MaxLength="20" />
+    <Property Name="UPDATE_TIME" Type="date" />
+    <Property Name="CONSCIOUS_SYMPTOMS_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="BEATE_HEART_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="BLOOD_PRESSURE_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="MAMILLA_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="MILK_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="BOTTOM_HEIGHT_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="ABDOMEN_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="PERINEUM_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="COLOUR_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="AMOUNT_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="TASTE_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="PISS_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="URINARY_TUBE_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="EXHAUST_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="OTHER_NO" Type="number" Precision="8" Scale="0" />
+    <Property Name="SIGNATURE_NO" Type="number" Precision="8" Scale="0" />
+  </EntityType>
+  <EntityType Name="DOC_RECORDS">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar2" MaxLength="42" Nullable="false" />
+    <Property Name="PATIENT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="VISIT_ID" Type="varchar2" MaxLength="20" />
+    <Property Name="WARD_CODE" Type="varchar2" MaxLength="20" />
+    <Property Name="TEMPLATE_ID" Type="number" Precision="8" Scale="0" Nullable="false" />
+    <Property Name="SCORE_DATE" Type="date" />
+    <Property Name="TOTAL_SCORE" Type="number" Precision="3" Scale="0" />
+    <Property Name="SCORE_RESULT" Type="varchar2" MaxLength="20" />
+    <Property Name="SCORE_NURSE" Type="varchar2" MaxLength="8" />
+    <Property Name="RECORD_STATUS" Type="varchar2" MaxLength="8" />
+    <Property Name="IS_HAPPENED" Type="varchar2" MaxLength="1" />
+    <Property Name="HAPPENED_POSITION" Type="varchar2" MaxLength="100" />
+    <Property Name="ASSESS_NURSE" Type="varchar2" MaxLength="8" />
+    <Property Name="ASSESS_DATE" Type="date" />
+    <Property Name="NURSING_CLASS" Type="varchar2" MaxLength="2" />
+    <Property Name="UPDATER_ID" Type="varchar2" MaxLength="8" />
+    <Property Name="UPDATE_DATE" Type="date" />
+    <Property Name="REMIND_ID" Type="varchar2" MaxLength="42" />
+    <Property Name="DELAY_STATUS" Type="varchar2" MaxLength="1" />
+    <Property Name="DELAY_HOURS" Type="number" Precision="4" Scale="0" />
+    <Property Name="EXAMINE_ID" Type="varchar2" MaxLength="10" />
+    <Property Name="EXAMINE_DATE" Type="date" />
+    <Property Name="NURSE_CODE" Type="varchar2" MaxLength="20" />
+    <Property Name="OPERATE_TYPE" Type="varchar2" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="DOC_ANTENATAL_CARE_RECORD" EntityType="Self.DOC_ANTENATAL_CARE_RECORD" Schema="MOBILEGS" store:Type="Tables" />
+    <EntitySet Name="DOC_DAYOUR_ENTRYEXIT_RECORD" EntityType="Self.DOC_DAYOUR_ENTRYEXIT_RECORD" Schema="MOBILEGS" store:Type="Tables" />
+    <EntitySet Name="DOC_MICROGLYCEMIC_RECORD" EntityType="Self.DOC_MICROGLYCEMIC_RECORD" Schema="MOBILEGS" store:Type="Tables" />
+    <EntitySet Name="DOC_NURSING_RECORD" EntityType="Self.DOC_NURSING_RECORD" Schema="MOBILEGS" store:Type="Tables" />
+    <EntitySet Name="DOC_POSTPARTUM_NURSING_RECORD" EntityType="Self.DOC_POSTPARTUM_NURSING_RECORD" Schema="MOBILEGS" store:Type="Tables" />
+    <EntitySet Name="DOC_RECORDS" EntityType="Self.DOC_RECORDS" Schema="MOBILEGS" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

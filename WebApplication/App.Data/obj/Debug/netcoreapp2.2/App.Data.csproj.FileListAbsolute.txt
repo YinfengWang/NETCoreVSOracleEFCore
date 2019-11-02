@@ -1,0 +1,12 @@
+C:\Users\lenovo\source\repos\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Core.dll
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Data.deps.json
+C:\Users\lenovo\source\repos\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Data.dll
+C:\Users\lenovo\source\repos\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Data.pdb
+C:\Users\lenovo\source\repos\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Core.pdb
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.csproj.CopyComplete
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.dll
+C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.pdb

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="11.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <!--生成过程中发现错误:
+警告 6002: 表/视图“MOBILEGS.MNIS_T_REPORT_DATA”未定义主键。已推断出该键，并将定义创建为只读的表/视图。-->
+        <EntityType Name="MNIS_T_REPORT_DATA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="varchar2" MaxLength="64" Nullable="false" />
+          <Property Name="CREATE_DATE" Type="date" />
+          <Property Name="STATUS" Type="char" MaxLength="1" />
+          <Property Name="ERROR_MSG" Type="varchar2" MaxLength="500" />
+          <Property Name="UPDATE_FLAG" Type="char" MaxLength="1" />
+          <Property Name="XML_URL" Type="varchar2" MaxLength="100" />
+          <Property Name="PDF_URL" Type="varchar2" MaxLength="100" />
+          <Property Name="PATIENT_ID" Type="varchar2" MaxLength="64" />
+          <Property Name="VISIT_ID" Type="varchar2" MaxLength="64" />
+          <Property Name="PATIENT_NAME" Type="varchar2" MaxLength="64" />
+          <Property Name="REPORT_NO" Type="varchar2" MaxLength="64" />
+          <Property Name="REPORT_TYPE" Type="char" MaxLength="3" />
+          <Property Name="REPORT_DATE" Type="date" />
+          <Property Name="VALID_DATE" Type="date" />
+          <Property Name="PAGE_ORENTION" Type="varchar2" MaxLength="64" />
+          <Property Name="PAGE_SIZE" Type="varchar2" MaxLength="64" />
+          <Property Name="PAGE_COUNT" Type="varchar2" MaxLength="64" />
+          <Property Name="PUBLISH_SYSTEM" Type="varchar2" MaxLength="64" />
+          <Property Name="CREATE_DEPT" Type="varchar2" MaxLength="64" />
+          <Property Name="TYPE" Type="varchar2" MaxLength="64" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="MNIS_T_REPORT_DATA" EntityType="Self.MNIS_T_REPORT_DATA" store:Type="Tables" store:Schema="MOBILEGS">
+            <DefiningQuery>SELECT 
+"MNIS_T_REPORT_DATA"."ID" AS "ID", 
+"MNIS_T_REPORT_DATA"."CREATE_DATE" AS "CREATE_DATE", 
+"MNIS_T_REPORT_DATA"."STATUS" AS "STATUS", 
+"MNIS_T_REPORT_DATA"."ERROR_MSG" AS "ERROR_MSG", 
+"MNIS_T_REPORT_DATA"."UPDATE_FLAG" AS "UPDATE_FLAG", 
+"MNIS_T_REPORT_DATA"."XML_URL" AS "XML_URL", 
+"MNIS_T_REPORT_DATA"."PDF_URL" AS "PDF_URL", 
+"MNIS_T_REPORT_DATA"."PATIENT_ID" AS "PATIENT_ID", 
+"MNIS_T_REPORT_DATA"."VISIT_ID" AS "VISIT_ID", 
+"MNIS_T_REPORT_DATA"."PATIENT_NAME" AS "PATIENT_NAME", 
+"MNIS_T_REPORT_DATA"."REPORT_NO" AS "REPORT_NO", 
+"MNIS_T_REPORT_DATA"."REPORT_TYPE" AS "REPORT_TYPE", 
+"MNIS_T_REPORT_DATA"."REPORT_DATE" AS "REPORT_DATE", 
+"MNIS_T_REPORT_DATA"."VALID_DATE" AS "VALID_DATE", 
+"MNIS_T_REPORT_DATA"."PAGE_ORENTION" AS "PAGE_ORENTION", 
+"MNIS_T_REPORT_DATA"."PAGE_SIZE" AS "PAGE_SIZE", 
+"MNIS_T_REPORT_DATA"."PAGE_COUNT" AS "PAGE_COUNT", 
+"MNIS_T_REPORT_DATA"."PUBLISH_SYSTEM" AS "PUBLISH_SYSTEM", 
+"MNIS_T_REPORT_DATA"."CREATE_DEPT" AS "CREATE_DEPT", 
+"MNIS_T_REPORT_DATA"."TYPE" AS "TYPE"
+FROM "MOBILEGS"."MNIS_T_REPORT_DATA" "MNIS_T_REPORT_DATA"</DefiningQuery>
+          </EntitySet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="MNIS_T_REPORT_DATA">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="String" MaxLength="64" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="CREATE_DATE" Type="DateTime" />
+          <Property Name="STATUS" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="ERROR_MSG" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+          <Property Name="UPDATE_FLAG" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="XML_URL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PDF_URL" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="PATIENT_ID" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="VISIT_ID" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="PATIENT_NAME" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="REPORT_NO" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="REPORT_TYPE" Type="String" MaxLength="3" FixedLength="true" Unicode="false" />
+          <Property Name="REPORT_DATE" Type="DateTime" />
+          <Property Name="VALID_DATE" Type="DateTime" />
+          <Property Name="PAGE_ORENTION" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="PAGE_SIZE" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="PAGE_COUNT" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="PUBLISH_SYSTEM" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="CREATE_DEPT" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+          <Property Name="TYPE" Type="String" MaxLength="64" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="Entities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="MNIS_T_REPORT_DATA" EntityType="Self.MNIS_T_REPORT_DATA" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="Entities1">
+          <EntitySetMapping Name="MNIS_T_REPORT_DATA">
+            <EntityTypeMapping TypeName="Model.MNIS_T_REPORT_DATA">
+              <MappingFragment StoreEntitySet="MNIS_T_REPORT_DATA">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="CREATE_DATE" ColumnName="CREATE_DATE" />
+                <ScalarProperty Name="STATUS" ColumnName="STATUS" />
+                <ScalarProperty Name="ERROR_MSG" ColumnName="ERROR_MSG" />
+                <ScalarProperty Name="UPDATE_FLAG" ColumnName="UPDATE_FLAG" />
+                <ScalarProperty Name="XML_URL" ColumnName="XML_URL" />
+                <ScalarProperty Name="PDF_URL" ColumnName="PDF_URL" />
+                <ScalarProperty Name="PATIENT_ID" ColumnName="PATIENT_ID" />
+                <ScalarProperty Name="VISIT_ID" ColumnName="VISIT_ID" />
+                <ScalarProperty Name="PATIENT_NAME" ColumnName="PATIENT_NAME" />
+                <ScalarProperty Name="REPORT_NO" ColumnName="REPORT_NO" />
+                <ScalarProperty Name="REPORT_TYPE" ColumnName="REPORT_TYPE" />
+                <ScalarProperty Name="REPORT_DATE" ColumnName="REPORT_DATE" />
+                <ScalarProperty Name="VALID_DATE" ColumnName="VALID_DATE" />
+                <ScalarProperty Name="PAGE_ORENTION" ColumnName="PAGE_ORENTION" />
+                <ScalarProperty Name="PAGE_SIZE" ColumnName="PAGE_SIZE" />
+                <ScalarProperty Name="PAGE_COUNT" ColumnName="PAGE_COUNT" />
+                <ScalarProperty Name="PUBLISH_SYSTEM" ColumnName="PUBLISH_SYSTEM" />
+                <ScalarProperty Name="CREATE_DEPT" ColumnName="CREATE_DEPT" />
+                <ScalarProperty Name="TYPE" ColumnName="TYPE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="无" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

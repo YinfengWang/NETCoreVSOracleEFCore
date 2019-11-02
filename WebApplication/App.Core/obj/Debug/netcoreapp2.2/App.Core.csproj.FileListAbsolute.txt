@@ -1,0 +1,9 @@
+C:\Users\lenovo\source\repos\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.deps.json
+C:\Users\lenovo\source\repos\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.dll
+C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.pdb
+C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.dll
+C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.pdb

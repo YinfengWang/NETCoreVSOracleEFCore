@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.BusinessService.deps.json
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.BusinessService.dll
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.BusinessService.pdb
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Core.dll
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Data.dll
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Core.pdb
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Data.pdb
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.csproj.CopyComplete
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.dll
+C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.pdb
