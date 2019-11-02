@@ -12,3 +12,16 @@ C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcor
 C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.csproj.CopyComplete
 C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.dll
 C:\Users\lenovo\source\repos\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.pdb
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.BusinessService.deps.json
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.BusinessService.dll
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.BusinessService.pdb
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Core.dll
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Data.dll
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Core.pdb
+G:\Git\WebApplication\App.BusinessService\bin\Debug\netcoreapp2.2\App.Data.pdb
+G:\Git\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.csprojAssemblyReference.cache
+G:\Git\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.AssemblyInfoInputs.cache
+G:\Git\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.AssemblyInfo.cs
+G:\Git\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.csproj.CopyComplete
+G:\Git\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.dll
+G:\Git\WebApplication\App.BusinessService\obj\Debug\netcoreapp2.2\App.BusinessService.pdb

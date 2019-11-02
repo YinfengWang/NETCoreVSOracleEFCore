@@ -7,3 +7,11 @@ C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App
 C:\Users\lenovo\source\repos\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.pdb
 C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.dll
 C:\Users\lenovo\source\repos\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.pdb
+G:\Git\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.deps.json
+G:\Git\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.dll
+G:\Git\WebApplication\App.Core\bin\Debug\netcoreapp2.2\App.Core.pdb
+G:\Git\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.csprojAssemblyReference.cache
+G:\Git\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.AssemblyInfoInputs.cache
+G:\Git\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.AssemblyInfo.cs
+G:\Git\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.dll
+G:\Git\WebApplication\App.Core\obj\Debug\netcoreapp2.2\App.Core.pdb

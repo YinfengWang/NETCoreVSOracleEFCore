@@ -10,3 +10,14 @@ C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App
 C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.csproj.CopyComplete
 C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.dll
 C:\Users\lenovo\source\repos\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.pdb
+G:\Git\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Data.deps.json
+G:\Git\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Data.dll
+G:\Git\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Data.pdb
+G:\Git\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Core.dll
+G:\Git\WebApplication\App.Data\bin\Debug\netcoreapp2.2\App.Core.pdb
+G:\Git\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.csprojAssemblyReference.cache
+G:\Git\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.AssemblyInfoInputs.cache
+G:\Git\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.AssemblyInfo.cs
+G:\Git\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.csproj.CopyComplete
+G:\Git\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.dll
+G:\Git\WebApplication\App.Data\obj\Debug\netcoreapp2.2\App.Data.pdb

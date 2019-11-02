@@ -1,0 +1,8 @@
+G:\Git\WebApplication\App.Core\bin\release\netcoreapp2.2\App.Core.deps.json
+G:\Git\WebApplication\App.Core\bin\release\netcoreapp2.2\App.Core.dll
+G:\Git\WebApplication\App.Core\bin\release\netcoreapp2.2\App.Core.pdb
+G:\Git\WebApplication\App.Core\obj\release\netcoreapp2.2\App.Core.csprojAssemblyReference.cache
+G:\Git\WebApplication\App.Core\obj\release\netcoreapp2.2\App.Core.AssemblyInfoInputs.cache
+G:\Git\WebApplication\App.Core\obj\release\netcoreapp2.2\App.Core.AssemblyInfo.cs
+G:\Git\WebApplication\App.Core\obj\release\netcoreapp2.2\App.Core.dll
+G:\Git\WebApplication\App.Core\obj\release\netcoreapp2.2\App.Core.pdb
